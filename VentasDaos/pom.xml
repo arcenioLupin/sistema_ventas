@@ -24,9 +24,9 @@
 
 		<dbcp2.version>2.2.0</dbcp2.version>
 		<junit.version>4.12</junit.version>
-		<org.springframework.version>4.3.14.RELEASE</org.springframework.version>
+		<org.springframework.version>5.0.5.RELEASE</org.springframework.version>
 		<mockito-core.version>2.15.0</mockito-core.version>
-
+         <spring.web>3.0.2.RELEASE</spring.web>
 		<utilidades.version>1.0-SNAPSHOT</utilidades.version>
 	</properties>
 
@@ -58,6 +58,27 @@
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-jdbc</artifactId>
 			<version>${org.springframework.version}</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-core</artifactId>
+			<version>${org.springframework.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-context</artifactId>
+			<version>${org.springframework.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.codehaus.jackson</groupId>
+			<artifactId>jackson-mapper-asl</artifactId>
+			<version>1.9.4</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-web</artifactId>
+			<version>${spring.web}</version>
 		</dependency>
 
 		<!-- Dependencias solo para test -->

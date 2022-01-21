@@ -65,4 +65,18 @@ public class ResultResponse implements Serializable {
         }
     }
 
+	public String getCode() {
+		return code;
+	}
+
+	public Object getObject() {
+		return object;
+	}
+
+	public String getMessage() {
+		return message;
+	}
+    
+    
+
 }

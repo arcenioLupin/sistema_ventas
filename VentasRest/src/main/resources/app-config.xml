@@ -37,7 +37,7 @@
 	
 
 
-	 <!-- <jee:jndi-lookup id="dataSourceMysql" jndi-name="${basededatos.jdni}" expected-type="javax.sql.DataSource" /> -->
+	 <!-- <jee:jndi-lookup id="dataSourceMysql" jndi-name="${basededatos.jdni}" expected-type="javax.sql.DataSource" /> 
 		
 	<bean id="dataSourceMysql" class="org.apache.commons.dbcp2.BasicDataSource"
 		destroy-method="close">
@@ -61,7 +61,7 @@
 		class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
 		<property name="dataSource" ref="dataSourceMysql" />
 	</bean>
-
+-->
 
 	<cache:annotation-driven />
 

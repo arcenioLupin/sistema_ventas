@@ -7,7 +7,7 @@
 <!-- 	<diskStore path="java.io.tmpdir" /> -->
 	<diskStore path="/tmp" />
 
-	<cache name="usuarios"
+	<cache name="libros"
 		maxEntriesLocalHeap="10000"
 		maxEntriesLocalDisk="10000000"
 		eternal="false"
